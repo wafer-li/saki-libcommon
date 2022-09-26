@@ -127,7 +127,7 @@ afterEvaluate {
 			release(MavenPublication) {
 				groupId = 'com.serenegiant'
 				artifactId = 'common'
-				version = versionNameString
+				version = "${versionNameString}.wafer"
 				from components.release
 				pom {
 					inceptionYear = '2014'
