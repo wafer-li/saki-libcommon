@@ -51,6 +51,6 @@ ext {
 	kotlinStdLibVersion = '1.8.10'
 	kotlinCoroutinesVersion = '1.6.4'
 
-    versionCodeNum = 423
-    versionNameString = '8.13.0.wafer.li'
+    versionCodeNum = 422
+    versionNameString = '8.13.0'
 }
