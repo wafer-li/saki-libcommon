@@ -89,6 +89,10 @@ afterEvaluate {
 			maven {
 				url = "file://${repo.absolutePath}"
 			}
+
+			maven {
+				url = "https://nexus.planetmeican.com/nexus/content/repositories/android"
+			}
 		}
 		publications {
 			release(MavenPublication) {
